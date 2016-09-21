@@ -31,7 +31,6 @@ public class EndpointAsyncTaskTest extends TestCase {
         result = jokeTask.execute(mActivityRule.getActivity()).get();
         Assert.assertNotNull(result);
         Assert.assertTrue(result.length() > 0);
-        Assert.assertTrue(result.contains("A bear walks into a bar and says to the bartender"));
     }
 
     @Override
