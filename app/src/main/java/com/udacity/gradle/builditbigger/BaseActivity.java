@@ -3,13 +3,13 @@ package com.udacity.gradle.builditbigger;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * Created by root on 9/24/16.
  */
 
-public class BaseActivity extends ActionBarActivity  {
+public class BaseActivity extends AppCompatActivity {
 
     Context mContext;
     ProgressDialog mProgressDialog;
